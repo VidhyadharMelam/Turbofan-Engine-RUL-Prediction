@@ -42,3 +42,10 @@ Verified dataset shape and inspected first few rows.
 Confirmed presence of empty columns at the end.
 
 Next step: Renaming columns to meaningful names (engine_id, cycle, setting_1–3, sensor_1–21).
+
+📝 Output
+Dataset shape: (20631, 28) → 20,631 rows and 28 columns.
+
+Preview shows columns labeled 0–27 with numerical values.
+
+Extra empty columns (NaN) appear at the end — will be dropped later.
